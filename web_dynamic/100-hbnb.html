@@ -1,0 +1,19 @@
+<!-- Add the new div element for API status -->
+<div id="api_status" class="available"></div>
+
+<!-- Remove the entire Jinja section for displaying places -->
+<!-- ... -->
+
+<!-- Add the new checkboxes for States and Cities -->
+<ul class="states">
+	  <li><input type="checkbox" data-id=":state_id" data-name=":state_name">State Name</li>
+	    <!-- Add more state checkboxes as needed -->
+</ul>
+
+<ul class="cities">
+	  <li><input type="checkbox" data-id=":city_id" data-name=":city_name">City Name</li>
+	    <!-- Add more city checkboxes as needed -->
+</ul>
+
+<!-- Update the JavaScript import -->
+<script src="../static/scripts/100-hbnb.js?{{ cache_id }}"></script>
